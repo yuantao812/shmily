@@ -87,7 +87,6 @@ class PaymentController extends Controller
         $grid->customer_id('Customer id');
         $grid->collect_type('Collect type');
         $grid->collect_status('Collect status');
-//        $grid->collect_voucher('Collect voucher');
         $grid->collect_voucher('Collect voucher')->lightbox(['zooming' => true, 'width' => 50, 'height' => 50]);
         $grid->collect_account('Collect account');
         $grid->collect_amount('Collect amount');
